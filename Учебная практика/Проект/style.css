@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+}
+
+body {
+    cursor: default;
+}
+
+nav {
+    font-family: comfortaa;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 95px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#main {
+    font-family: comfortaa;
+    background-image: url("/Проект/Фото/main.png");
+    width: 100%;
+    height: 849px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+#information > h1 {
+    font-size: 32px;
+}
+
+#information > p {
+    color: #628C79;
+    font-size: 24px;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 567px;
+    height: 333px;
+    margin-top: 146px;
+    padding: 0 240px 0 0;
+}
+
+#press {
+    text-align: center;
+    font-family: comfortaa;
+    color: #FFFFFF;
+    font-size: 24px;
+    border-radius: 100px;
+    background-color: #5B6F66;
+    border: solid 1px #000000;
+    width: 268px;
+    height: 51px;
+    cursor: pointer;
+}
+
+#press:hover {
+    text-align: center;
+    font-family: comfortaa;
+    color: #5B6F66;
+    font-size: 24px;
+    border-radius: 100px;
+    background-color: #000000;
+    border: solid 1px #ffffff;
+    width: 268px;
+    height: 51px;
+    transition: 0.5s;
+}
+
+#About_us {
+    width: 100%;
+    height: 826px;
+    background-color: #4F3B34;
+    display: flex;
+    align-items: center;
+    gap: 202px;
+}
+
+
+.heading {
+    font-family: comfortaa;
+    font-size: 32px;
+    color: #628C79;
+    padding: 0 0 0 50px;
+}
+
+.heading_work {
+    font-family: comfortaa;
+    font-size: 32px;
+    color: #628C79;
+}
+
+.Paragraph {
+    font-family: comfortaa;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 65px 50px 0 50px;
+
+}
+
+#desserts_3 {
+    padding: 0 50px 0 0;
+}
+
+.hall {
+    border-radius: 100px;
+    padding: 0 50px 0 0;
+}
+
+#Coffee {
+    width: 100%;
+    height: 826px;
+    background-color: #4F3B34;
+    display: flex;
+    align-items: center;
+    gap: 202px;
+}
+
+.image {
+    border-radius: 20px;
+}
+
+#desserts {
+    width: 100%;
+    height: 826px;
+    background-color: #4F3B34;
+    display: flex;
+    align-items: center;
+    gap: 202px;
+}
+
+#work {
+    width: 100%;
+    height: 1642px;
+    background-color: #4F3B34;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.Paragraph_work {
+    font-family: comfortaa;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 755px;
+    height: 108px;
+}
+
+.position {
+    display: flex;
+    flex-direction: row;
+}
+
+#sexx {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 799px;
+    height: 643px;
+    padding: 0px 0 0 500px;
+
+}
+
+.card {
+    width: 861px;
+    height: 644px;
+    border-radius: 25px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 0 50px
+}
+
+.press_work {
+    width: 568px;
+    height: 127px;
+    border-radius: 20px;
+    background-color: #919191;
+    text-align: center;
+    color: #000000;
+    font-size: 36px;
+    font-family: comfortaa;
+    cursor: pointer;
+}
+
+.press_work:hover {
+    width: 568px;
+    height: 127px;
+    border-radius: 20px;
+    background-color: #000000;
+    text-align: center;
+    color: #919191;
+    font-size: 36px;
+    font-family: comfortaa;
+    transition: 0.5s;
+} 
+
+.name {
+    font-family: comfortaa;
+    font-size: 48px;
+}
+
+.description {
+    font-family: comfortaa;
+    font-size: 24px;
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+.text_info {
+    font-family: comfortaa;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.text_description {
+    font-family: comfortaa;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+
+.card_info {
+    width: 344px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#About_us_padding {
+    padding: 0 0 0 50px;
+}
+
+#americano {
+    padding: 0 0 0 50px;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #2B2325;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#Social {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer > h1 {
+    font-size: 24px;
+    font-family: comfortaa;
+    color: #FFFFFF;
+    margin: 89px 0 20px 0;
+}
+
+footer > img {
+    padding: 0 100px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed; 
+    width: 1000px;
+    height: 900px;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #D9D9D9;
+    border-radius: 25px;
+}
+
+body.modal-open {
+    overflow: hidden; 
+	opacity: 0.7;
+    background-color: rgba(0, 0, 0, 1.5);	
+}
+
+
+.modalContent {
+    background-color: #2B2325;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.closeModalWindow {
+    color: #aaa;
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.ModalOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.closeModalWindow:hover, .closeModalWindow:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
